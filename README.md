@@ -1,0 +1,2 @@
+# SE
+Standard Edition

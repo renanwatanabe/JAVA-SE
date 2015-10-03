@@ -41,3 +41,10 @@ Business
 CSS
 Integracao
 Deploy
+
+
+1 - Nova janela tela de edicao
+2 - Mesma janela  tela de edicao
+3-  ProgressBar
+4- Table
+5- Entender paineis

@@ -19,12 +19,19 @@ Com o Scene Builder , criar os componentes na AnchorPane , setar o id nos atribu
 
 
 http://docs.oracle.com/javase/8/javafx/get-started-tutorial/index.html
+
 http://docs.oracle.com/javafx/2/fxml_get_started/jfxpub-fxml_get_started.htm
+
 http://controlsfx.bitbucket.org/
+
 http://code.makery.ch/library/javafx-8-tutorial/
+
 http://docs.oracle.com/javase/8/javafx/layout-tutorial/index.html
+
 http://docs.oracle.com/javase/8/javafx/properties-binding-tutorial/binding.htm
+
 http://code.makery.ch/blog/javafx-dialogs-official/
+
 
 
 Passos de uma aplicacao FX

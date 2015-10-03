@@ -14,4 +14,3 @@ Criacao do Controller -> contem todos os atributos e metodos ligados com a GUI.
 Criacao de um FXML -> GUI
 Com o Scene Builder , criar os componentes na AnchorPane , setar o id nos atributos e colocar o nome do metodo no "on action" do componente.
 
-"Parent root = FXMLLoader.load(getClass().getResource("/application/MyView.fxml"));"

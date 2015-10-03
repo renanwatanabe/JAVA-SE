@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="193.0" prefWidth="196.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MyController">
+   <children>
+      <Button fx:id="btnAsk" layoutX="82.0" layoutY="97.0" mnemonicParsing="false" onAction="#changeText" text="Ask" />
+      <Label fx:id="txtName" layoutX="59.0" layoutY="36.0" text="Your name is ..." />
+   </children>
+</AnchorPane>

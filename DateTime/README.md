@@ -87,6 +87,14 @@ int minute     = calendar.get(Calendar.MINUTE);
 int second     = calendar.get(Calendar.SECOND);
 int millisecond= calendar.get(Calendar.MILLISECOND);
 
+
+
+	  Calendar c = Calendar.getInstance();
+	  c.set(2013, Calendar.FEBRUARY, 28,0,0,0); 
+	  Date data = c.getTime(); 
+	  System.out.println("Data atual sem formatação: "+data);
+	  
+	  
 Pitfalls do calendar
 -Month nao vai do 1 ao 12, e sim do 0 ao 11.
 -o dia vai do 1 ao 7, mas o primeiro dia eh Domingo.

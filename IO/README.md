@@ -1,5 +1,11 @@
-Java IO (INPUT/OUTPUT).
+#Java IO (INPUT/OUTPUT).
 
+'''java
+public static void main(String[] args){
+    System.out.println("Ola mundo!");
+}
+
+'''
 Os termos Input e Output podem ser um pouco confuso. O input de uma parte da aplicação pode ser o output de outra parte e vice-versa.
 Os tipos mais comuns são
 Arquivos, Pipes, Coneções de rede, buffers de memória, system in/out,etc.

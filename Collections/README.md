@@ -92,3 +92,31 @@ A interface Map representa um conjunto de chaves e valores, ela não é um subti
 A interface Queue representa uma lista ordenada igual à List, mas ela age um pouquinho diferente. A Queue é designada para
 adicionar elementos no final da fila( acho que lista mesmo ja faz isso ), e elementos removidos no começo da lista.Igual a uma fila de supermercado.
  
+ ####Implementações de Queue:
+ 
+ * LinkedList - implementação padrão de uma fila
+ * PriorityQueue - armazena os objetos pela ordem natural, se eles implementarem o Comparable.
+ 
+Métodos :
+* add - adiciona o objeto.
+* element()  - visualiza o objeto que está na cabeça da fila, mas não remove.
+* remove() - para remover o primeiro objeto da fila, você pode armazenar ele em um objeto de referência.
+
+
+##Deque
+A interface Deque(Double Ended Queue, se pronuncia Deck) implementa a interface Queue( é filha), representa uma fila onde você pode inserir ou remover tanto no ínicio quanto no fim da fila. 
+
+* ArrayDeque
+* LinkedList
+* 
+
+Métodos
+* add
+* addFirst
+* addLast
+* element()
+* getFirst
+* getLast
+* 
+
+Implementar HashCode,Equals e CompareTO ( Comparable)

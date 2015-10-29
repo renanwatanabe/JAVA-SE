@@ -2,6 +2,8 @@
 
 ![Arquitetura Collection](https://www3.ntu.edu.sg/home/ehchua/programming/java/images/Collection_interfaces.png)
 
+
+ENTENDER OS TIPOS DE FILA, LIFO,FIFO ETC
 #####Iterable
 É a Interface raíz da API Collection, quem implementa essa classe consegue fazer o loop for each (String minhaString : listaStrings)'.
 
@@ -67,4 +69,26 @@ TreeSet<String> minhaArvore = new TreeSet<String>(;
  *lower - oposto do higher.
  pollFirst - REMOVE e retorna o primeiro registro do set , ou seja, o menor registro.
  pollLast - REMOVE e retorna o último registro do set, ou seja, o maior registro.
+
+
+##Map
+A interface Map representa um conjunto de chaves e valores, ela não é um subtipo de Collection.
+
+#####Implementações do Map
+* HashMap
+* Hashtable
+* EnumMap
+* IdentityHashMap
+* LinkedHashMap
+* Properties
+* TreeMap
+* WeakHashMap
+* 
+###Iterando mapas.
+
+
+
+##Queue
+A interface Queue representa uma lista ordenada igual à List, mas ela age um pouquinho diferente. A Queue é designada para
+adicionar elementos no final da fila( acho que lista mesmo ja faz isso ), e elementos removidos no começo da lista.Igual a uma fila de supermercado.
  

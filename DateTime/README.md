@@ -94,6 +94,7 @@ int millisecond= calendar.get(Calendar.MILLISECOND);
 	  Date data = c.getTime(); 
 	  System.out.println("Data atual sem formatação: "+data);
 	  
+	  Adicionar um dia no ano : meuCalendar.add(Calendar.DAY_OF_MONTH, 1);
 	  
 Pitfalls do calendar
 -Month nao vai do 1 ao 12, e sim do 0 ao 11.
